@@ -1,0 +1,111 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:0px;
+    
+}
+body {
+    font-family: 'nunito';
+    color:black;
+    background-color: black;
+    line-height: 1.4;
+    width: 100%;
+  }
+#header-img{
+    position: fixed;
+    height: auto;
+    min-width: 80px;
+    width: 80px;
+    background:transparent;
+    top: 20px;
+    left: 110px;
+}
+#navbar{
+    position:fixed;
+    height: 100%;
+    min-width: 300px;
+    width:300px;
+
+    top:0px;
+    left:0px;
+
+    color:black;
+    background-image: url("http://www.solofondos.com/wp-content/uploads/2015/11/Fondos-web.jpg");
+    padding:75px 0px;
+}
+#navbar header {
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+}#navbar li {
+    margin-left: 30px;
+    list-style: none;
+    padding: 5px 0px;
+    position: relative;
+    width: 100%;
+  }
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+#navbar a:hover{ 
+    color: blue;
+    text-decoration: underline;
+  }
+#main-doc {
+  position: absolute;
+  
+  top: 0vw;
+  margin-left: 310px;
+  
+  padding: 20px;
+}
+#main-doc h1{
+    font-size: 50px;
+    text-align: center;
+}
+Section {
+    background: rgb(34,193,195,0.6);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(144,144,143,0.8841911764705882) 67%);
+    padding: 2.5rem 2.5rem;
+    border-radius: 2rem;
+    width: 500px;
+    margin: auto; 
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+Section ul{
+    margin-left: 20px;
+}
+Section header {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 20px;
+}
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/blanco-claro-del-hex%C3%A1gono-fondo-extracto-modelo-111209391.jpg");
+    display:flex;
+} 
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
